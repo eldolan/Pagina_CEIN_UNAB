@@ -27,3 +27,5 @@ Apreciamos tu interés en contribuir al desarrollo de esta plataforma. Actualmen
 Agradecemos tu interés en fortalecer la comunidad de Ingeniería Civil Informática en la UNAB a través de esta plataforma. Mantente al tanto de las actualizaciones periódicas en este archivo README para seguir el progreso del proyecto.
 
 **Nota:** Este archivo README se actualiza regularmente a medida que avanzamos en el desarrollo del proyecto. Te sugerimos revisar las actualizaciones para mantenerte informado sobre los avances y las nuevas características.
+
+Este proyecto fue creado, inciado y desarrollado por Dylan Moena.
