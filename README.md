@@ -28,4 +28,4 @@ Agradecemos tu interés en fortalecer la comunidad de Ingeniería Civil Informá
 
 **Nota:** Este archivo README se actualiza regularmente a medida que avanzamos en el desarrollo del proyecto. Te sugerimos revisar las actualizaciones para mantenerte informado sobre los avances y las nuevas características.
 
-Este proyecto fue creado, inciado y desarrollado por Dylan Moena.
+Este proyecto fue creado, iniciado y desarrollado por Dylan Moena.
