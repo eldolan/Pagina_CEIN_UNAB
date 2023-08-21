@@ -40,7 +40,3 @@ body {
     color: #dee2e6 !important;
     margin-top: auto; /* Empuja el pie de página hacia abajo ocupando el espacio disponible */
 }
-
-.text-body-secondary p {
-    margin: 0;
-}
