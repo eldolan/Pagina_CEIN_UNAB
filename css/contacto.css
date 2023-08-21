@@ -3,7 +3,7 @@ body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: rgb(var(--bs-tertiary-color-rgb));
-    background-color: #343a40;
+    background-color: #343a40; /* Color de fondo general */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
