@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html data-bs-theme="auto" lang="es">
+
 <head>
+    <!-- Metadatos y enlaces a estilos -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contacto CEIN</title>
@@ -8,10 +10,13 @@
     <link href="contacto.css" rel="stylesheet">
 </head>
 
+<body>
+<!-- Encabezado de la página -->
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">CEIN</a>
+            <!-- Botón para mostrar el menú en dispositivos pequeños -->
             <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"
                     class="navbar-toggler"
                     data-bs-target="#navbarCollapse" data-bs-toggle="collapse" type="button">
@@ -32,47 +37,80 @@
                         <a class="nav-link" href="Contacto.html">Contacto</a>
                     </li>
                 </ul>
+                <!-- Formulario de inicio de sesión -->
                 <form class="d-flex" role="form">
-                    <a class="btn btn-info" href="#" role="button">Ingresa</a>
+                    <a href="#" class="btn btn-info" role="button" data-bs-toggle="modal" data-bs-target="#loginModal">Ingresa</a>
                 </form>
             </div>
         </div>
     </nav>
 </header>
-<body>
-<div class="container">
 
+<!-- Contenido principal -->
+<div class="container">
     <form id="contactForm">
-        <!-- Name input -->
+        <!-- Campo de entrada para el nombre -->
         <div class="mb-3">
             <label class="form-label" for="name">Nombre</label>
-            <input class="form-control" id="name" placeholder="Nombre y Apellido" type="text"/>
+            <input class="form-control" id="name" placeholder="Nombre y Apellido" type="text" />
         </div>
-        <!-- Email address input -->
+        <!-- Campo de entrada para la dirección de correo electrónico -->
         <div class="mb-3">
             <label class="form-label" for="emailPrefix">Correo</label>
             <div class="input-group">
-                <input class="form-control" id="emailPrefix" placeholder="Usuario" type="text"/>
+                <input class="form-control" id="emailPrefix" placeholder="Usuario" type="text" />
                 <span class="input-group-text">@uandresbello.edu</span>
             </div>
         </div>
-        <!-- Message input -->
+        <!-- Campo de entrada para el mensaje -->
         <div class="mb-3">
             <label class="form-label" for="message">Mensaje</label>
             <textarea class="form-control" id="message" placeholder="Escribenos!" style="height: 10rem;"
                       type="text"></textarea>
         </div>
-        <!-- Form submit button -->
+        <!-- Botón para enviar el formulario -->
         <div class="d-grid">
             <button class="btn btn-primary btn-lg" type="submit">Enviar</button>
         </div>
     </form>
 </div>
+
+<!-- Pie de página -->
 <footer class="text-body-secondary py-5">
     <div class="container">
         <p class="mb-1">Dylan Moena, lista B, 2023</p>
     </div>
 </footer>
+
+<!-- Modal de inicio de sesión -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModalLabel">Iniciar Sesión</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="inputEmail" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="...@uandresbello.edu">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputPassword" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="...">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Iniciar Sesión</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Scripts al final del documento -->
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
